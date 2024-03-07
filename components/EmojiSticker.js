@@ -36,7 +36,6 @@ export default function EmojiSticker({ imageSize, stickerSource }) {
     
 
     const imageStyle = useAnimatedStyle(() => {
-        console.log(scaleImage.value);
         return {
         width: withSpring(scaleImage.value),
         height: withSpring(scaleImage.value),
